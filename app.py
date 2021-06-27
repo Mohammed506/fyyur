@@ -16,6 +16,7 @@ from flask_wtf import Form, csrf
 from sqlalchemy.orm import backref
 from flask_wtf.csrf import CSRFProtect
 from forms import *
+from models import * 
 
 
 
